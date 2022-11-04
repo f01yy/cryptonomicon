@@ -1,5 +1,5 @@
 const API_KEY =
-  'a53fea58863edc120f634df994a3bd86ee589417a3fd6a93066417989e814635';
+  '42f7389b1732e9f63a76096a54cc0aa007574713a1bf46d4aea535c49ca98abe';
 
 const socket = new WebSocket(
   `wss://streamer.cryptocompare.com/v2?api_key=${API_KEY}`

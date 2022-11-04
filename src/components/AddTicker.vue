@@ -17,12 +17,9 @@
           />
         </div>
         <div
-          v-if="false"
           class="flex bg-white shadow-md p-1 rounded-md shadow-md flex-wrap"
         ></div>
-        <div v-if="false" class="text-sm text-red-600">
-          Такой тикер уже добавлен
-        </div>
+        <div class="text-sm text-red-600">Такой тикер уже добавлен</div>
       </div>
     </div>
     <add-button @click="add" type="button" class="my-4" :disabled="disabled" />
