@@ -5,6 +5,9 @@ const socket = new WebSocket(
   `wss://streamer.cryptocompare.com/v2?api_key=${API_KEY}`
 );
 
+socket.onopen = () => console.log('OPENED');
+socket.onmessage = (e) => console.log(e);
+
 const tickersHandlers = new Map();
 
 const AGGREGATE_INDEX = '5';
